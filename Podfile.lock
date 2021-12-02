@@ -1,0 +1,69 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
+  - RIBs (0.9.3):
+    - RxRelay (~> 6.0.0)
+    - RxSwift (~> 6.0.0)
+  - RxCocoa (6.0.0):
+    - RxRelay (= 6.0.0)
+    - RxSwift (= 6.0.0)
+  - RxRelay (6.0.0):
+    - RxSwift (= 6.0.0)
+  - RxSwift (6.0.0)
+  - SwiftLint (0.43.1)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - Moya/RxSwift
+  - Reusable
+  - RIBs (from `https://github.com/uber/RIBs.git`, branch `master`)
+  - RxCocoa
+  - SwiftLint
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - Reusable
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SwiftLint
+    - Then
+
+EXTERNAL SOURCES:
+  RIBs:
+    :branch: master
+    :git: https://github.com/uber/RIBs.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  RIBs:
+    :commit: 6f53e61b8331ae022c6c52b681601b6cf640645b
+    :git: https://github.com/uber/RIBs.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
+  RIBs: dd8df1129289d51ed4fec6e2127613d9eaba204e
+  RxCocoa: 3f79328fafa3645b34600f37c31e64c73ae3a80e
+  RxRelay: 8d593be109c06ea850df027351beba614b012ffb
+  RxSwift: c14e798c59b9f6e9a2df8fd235602e85cc044295
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: 710cdcaa799f53bd9d3d313d83f0ba7adcab06e8
+
+COCOAPODS: 1.10.1
